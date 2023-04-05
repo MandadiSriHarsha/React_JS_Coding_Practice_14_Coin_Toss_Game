@@ -1,0 +1,103 @@
+.coin-toss-bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-card {
+  background-color: #ffffff;
+  border: 0px solid #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 80vw;
+}
+
+.toss-card-heading {
+  color: #a35200;
+  font-size: 35px;
+}
+
+.toss-card-description {
+  color: #334155;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.toss-card-image {
+  height: 150px;
+  width: 150px;
+}
+
+.toss-card-button {
+  height: 40px;
+  width: 100px;
+  background-color: #f9d423;
+  border-radius: 7px;
+  border: 0px solid;
+  color: #a35200;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.toss-card-count-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.total-tosses {
+  color: #475569;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.heads-tosses {
+  color: #475569;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tails-tosses {
+  color: #475569;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-card {
+    min-width: 400px;
+    max-width: 700px;
+    padding: 0px;
+  }
+  .toss-card-heading {
+    font-size: 50px;
+  }
+  .toss-card-description {
+    font-size: 25px;
+  }
+  .toss-card-image {
+    height: 250px;
+    width: 250px;
+  }
+  .toss-card-button {
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+  }
+  .toss-card-count-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+}
